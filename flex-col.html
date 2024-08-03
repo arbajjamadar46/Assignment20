@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flexboxes-column</title>
+    <style>
+        .container{
+            height: 100%;
+            width: 200px;
+            background-color: rgb(255, 176, 96);
+            border: 2px solid black;
+            display: flex;
+            flex-direction:column;
+        }
+        .card{
+            height: 220px;
+            width: 150px;
+            text-align: center;
+            contain: content;
+            border: 2px solid black;
+            background-color: #ffffff;
+            margin: 10px;
+            border-radius: 10px;
+            padding: 0;
+        }
+
+        .one{
+            height: 150px;
+            width: 150px;
+            background-color: rgb(255, 60, 60);
+            border-bottom: 2px solid black;
+        }
+
+        .two{
+            background-color: rgb(60, 255, 60);
+            height: 150px;
+            width: 150px;
+            border-bottom: 2px solid black;
+
+        }
+        .three{
+            background-color: rgb(60, 60, 255);
+            height: 150px;
+            width: 150px;
+            border-bottom: 2px solid black;
+
+        }
+        .four{
+            background-color: rgb(255, 255, 60);
+            height: 150px;
+            width: 150px;
+            border-bottom: 2px solid black;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="one"></div>
+            <h1>One</h1>
+        </div>
+        <div class="card">
+            <div class="two"></div>
+            <h1>Two</h1>
+        </div><div class="card">
+            <div class="three"></div>
+            <h1>Three</h1>
+        </div><div class="card">
+            <div class="four"></div>
+            <h1>Four</h1>
+        </div>
+    </div>
+</body>
+</html>

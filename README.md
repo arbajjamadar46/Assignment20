@@ -1,5 +1,5 @@
 ﻿# Assignment20
-# Flexbox Properties
+## Flexbox Properties
 
 1. flex-direction: row
 ![image](https://github.com/user-attachments/assets/b828ae2b-7443-47e9-882f-c2ad436185a4)
